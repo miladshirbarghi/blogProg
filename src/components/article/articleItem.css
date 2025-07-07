@@ -1,0 +1,25 @@
+.card{
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transition: all 0.3s;
+}
+.card:hover{
+    scale: 1.025;
+}
+.card-text{
+  display: -webkit-box;
+  -webkit-line-clamp: 3; 
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal; 
+  color: #5d5c5c;
+}
+.read-more:hover{
+    cursor: pointer;
+    color: #f54980;
+}
+.card a {
+    text-decoration: none;
+    color: #484848;
+}

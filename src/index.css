@@ -1,0 +1,24 @@
+@font-face {
+    font-family: yekan;
+    src: url(./assets/font/Yekan.ttf);
+}
+@font-face {
+    font-family: lalezar;
+    src: url(./assets/font/Lalezar.ttf);
+}
+@font-face {
+    font-family: nazanin;
+    src: url(./assets//font/BNazaninBold.ttf);
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: yekan , sans-serif;
+}
+.lalezar{
+    font-family: lalezar;
+}
+.nazanin{
+    font-family: nazanin;
+}
